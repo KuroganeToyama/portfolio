@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} text-slate-50 bg-zinc-900 flex flex-col min-h-screen max-w-screen-2xl mx-auto`}
+        className={`${inter.className} text-slate-50 bg-purple-200 flex flex-col min-h-screen max-w-screen-2xl mx-auto`}
       >
         <Header />
         {children}
