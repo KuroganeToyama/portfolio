@@ -17,9 +17,6 @@ export default function Navbar() {
       <ul className="md:flex flex-row justify-between ">
         {/* Mobile Menu - Default */}
         <div className="flex items-center justify-between font-bold">
-          <a className="p-2" href="/">
-            <img src="/images/logos/logo.png" alt="" className="max-h-[36px] rounded-md" />
-          </a>
           <button
             className="md:hidden text-2xl block p-2"
             onClick={() => {
@@ -83,7 +80,7 @@ function DesktopMenu() {
           </ul>
           {index < pages.length - 1 && (
             <div key={`separator-${index}`} className=" font-thin align-bottom">
-              /
+              |
             </div>
           )}
         </div>
