@@ -7,8 +7,8 @@ export default function Home() {
         text-7xl lg:text-9xl font-extrabold leading-none tracking-tight 
         text-center z-[1] size-fit"
         >
-          <span className="block text-blue-200">Di</span>
-          <span className="block text-zinc-300">Nguyen</span>
+          <span className="block text-green-500">Di</span>
+          <span className="block text-indigo-400">Nguyen</span>
         </h1>
       </div>
     </section>
