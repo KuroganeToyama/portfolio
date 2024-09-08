@@ -8,9 +8,9 @@ export default function NotFound() {
                   font-extrabold leading-none tracking-tight 
                   text-center backdrop-blur-sm z-[1] h-fit w-fit"
             >
-              <span className="block text-green-300 md:text-[100px] text-9xl mb-8">404 Page Not Found</span>
-              <span className="block md:text-[20px] text-9xl mb-8">Most likely because I forgot something, if we don't consider the internet.</span>
-              <span className="block md:text-[20px] text-9xl mb-8">Could also be Vercel doing something not right.</span>
+              <span className="block text-green-500 md:text-[100px] text-9xl mb-8">404 Page Not Found</span>
+              <span className="block text-gray-800 md:text-[20px] text-9xl mb-8">Most likely because I forgot something, if we don't consider the internet.</span>
+              <span className="block text-gray-800 md:text-[20px] text-9xl mb-8">Could also be Vercel doing something not right.</span>
               <a href="/" className="text-md">
                 <button
                   className="text-md bg-zinc-800 rounded-md p-6 transition-transform 
