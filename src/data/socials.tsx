@@ -4,7 +4,7 @@ export const socials = [
     {
         id: 1,
         icon: <FiGlobe />,
-        url: "https://www.mrkhunt.me/",
+        url: "https://di-nguyen-portfolio.vercel.app/",
     },
 
     {
