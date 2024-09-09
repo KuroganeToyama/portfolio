@@ -12,7 +12,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 const Experience = () => {
     return (
         <section className="w-[85%] mx-auto text-slate-50 pt-8 pb-16">
-            <h1 className="text-3xl md:text-[60px] lg:text-[80px] font-bold text-green-500 mb-16">
+            <h1 className="text-2xl md:text-[40px] lg:text-[60px] font-bold text-green-500 mb-16">
                 So... what jobs did I take on?
             </h1>
             <p className="font-bold text-gray-800">Here's a little timeline of the jobs I have worked and am working on.</p>
