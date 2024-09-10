@@ -42,7 +42,8 @@ const About = () => {
         </a>
         {"."} Most of the time, I take a look at our project board, pick a ticket and work on it. 
         Sometimes I fix a bug (or multiple ones), sometimes I develop new features (and fix even more bugs).
-        A couple of months ago, I got promoted to lead developer. So I'm also spending my time as a product manager (more or less).
+        A couple of months ago, I got promoted to lead developer for the Discord Bot team.
+        So I'm also spending my time as a product manager (more or less).
         Quite a lot of work, but it's also fun work!
         <br />
         <br />
