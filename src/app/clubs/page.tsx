@@ -120,4 +120,4 @@ const Clubs = () => {
     )
 };
 
-export default Clubs
+export default Clubs;

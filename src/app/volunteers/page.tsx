@@ -127,4 +127,4 @@ const Volunteers = () => {
     )
 };
 
-export default Volunteers
+export default Volunteers;
