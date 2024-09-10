@@ -4,4 +4,5 @@ export const pages = [
     { name: "Experience", path: "/experience" },
     { name: "Projects", path: "/projects" },
     { name: "Clubs", path: "/clubs" },
+    { name: "Volunteers", path: "/volunteers"},
 ];
