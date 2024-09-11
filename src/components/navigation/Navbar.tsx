@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-slate-600 w-[85%] m-auto p-2 rounded-lg text-white justify-between">
-      <ul className="md:flex flex-row justify-between ">
+      <ul className="md:flex flex-row justify-center ">
         {/* Mobile Menu - Default */}
         <div className="flex items-center justify-between font-bold">
           <button
@@ -72,7 +72,7 @@ function NavLink({ name, path }: NavLinkProps) {
 
 function DesktopMenu() {
   return (
-    <ul className="hidden md:flex flex-row overflow-hidden  my-auto justify-end py-2 rounded-lg items-center text-white">
+    <ul className="hidden md:flex flex-row overflow-hidden  my-auto justify-center py-2 rounded-lg items-center text-white">
       {pages.map((page, index) => (
         <div className="flex flex-row" key={index}>
           <ul>
