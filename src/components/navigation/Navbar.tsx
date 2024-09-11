@@ -13,7 +13,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-slate-600 w-[85%] m-auto p-2 rounded-lg text-white justify-between">
+    <nav className="bg-slate-600 w-full sticky top-0 p-2 text-white justify-between">
       <ul className="md:flex flex-row justify-center ">
         {/* Mobile Menu - Default */}
         <div className="flex items-center justify-between font-bold">
