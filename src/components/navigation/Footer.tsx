@@ -3,8 +3,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className=" w-[85%] mx-auto mt-auto pt-4 pb-4">
-      <div className="mx-auto w-full p-4 py-6 lg:py-8 bg-slate-600 rounded-3xl text-white-900">
+    <footer className="w-full mx-auto mt-auto pt-4 pb-0">
+      <div className="mx-auto w-full p-4 py-6 lg:py-8 bg-slate-600 text-white-900">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a href="/" className="flex items-center mb-1">
