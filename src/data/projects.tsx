@@ -13,6 +13,21 @@ interface Project {
   
 export const projects: Project[] = [
     {
+        name: "Otaku Music Bot",
+        links: [
+            { name: "GitHub", path: "https://github.com/KuroganeToyama/otaku-music" },
+        ],
+        src: "/projects/otakumusic.jpg",
+        skills: ["JavaScript", "Discord.js", "Docker"],
+        desc: "A Discord music bot for me and my friends. \
+        Creating a music bot diverges from the normal framework a little bit, \
+        so it was nice to learn something new within the same tech stack. \
+        There were also challenges to setting up the Docker container properly, which you could get a glimpse from \
+        the README.md file in the repo. Nonetheless, good to learn something new. \
+        Now we get to easily share music within the server without having to stream anything! Hooray!",
+    },
+
+    {
         name: "Pixiv API",
         links: [
             { name: "GitHub", path: "https://github.com/KuroganeToyama/pixiv-api" },
