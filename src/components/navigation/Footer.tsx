@@ -36,7 +36,7 @@ const Footer = () => {
           <span className="text-sm text-white-500 text-left">
             © 2024 by Di Nguyen
             <br />
-            Last Updated: September 2024
+            Last Updated: October 2024
           </span>
         </div>
       </div>

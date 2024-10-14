@@ -1,5 +1,6 @@
 import Button from "@/components/button/Button";
 import ImgageWithCaption from "@/components/ImageWithCaption";
+import Hyperlink from "@/components/Hyperlink";
 import React from "react";
 
 const About = () => {
@@ -25,7 +26,7 @@ const About = () => {
         <a href="https://cs.uwaterloo.ca/" className="hover:text-red-500">
             School of Computer Science
         </a>
-        {"."} In the past, I&apos;ve also worked as an ISA in full-time capacity.
+        {"."} In the past, I've also worked as an ISA in full-time capacity.
         <br />
         <br />
 
@@ -48,12 +49,21 @@ const About = () => {
         <br />
         <br />
 
-        I&apos;m currently seeking Winter 2025 co-op positions/internships. So if you think 
-        I&apos;d be a great addition for your team, please reach out! I'd really appreciate it!
+        I'm currently employed for my upcoming co-op work term in Winter 2025! 
+        It's crazy, I know, considering that Fall is usally regarded as the worst time to look for a job these days.
+        I'm employed as a <strong>Technical Solutions Developer</strong> at
+        {" "}
+        <Hyperlink
+          link="https://www.linkedin.com/company/watspeed/about/"
+          text="WatSPEED"
+        />
+        {""},
+        and boy I'm certainly very excited about this.
+        So, we'll see what I will learn and what I will contribute in the next 4 months.
         <br />
         <br />
 
-        Feel free to check out other pages on my website!
+        Also, feel free to check out other pages on my website!
         <br />
         <br />
 
