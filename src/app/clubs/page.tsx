@@ -2,6 +2,7 @@ import React from "react";
 import Details from "@/components/Details";
 import CodeybotArticle from "@/data/clubs/CodeybotArticle";
 import TermSyscomArticle from "@/data/clubs/TermSyscomArticle";
+import MathsocWebManagerArticle from "@/data/clubs/MathsocWebManagerArticle";
 
 const Clubs = () => {
     return (
@@ -26,6 +27,11 @@ const Clubs = () => {
             <Details
                 title="Terminal and System Committee"
                 content={<TermSyscomArticle />}
+            />
+
+            <Details
+                title="MathSoc Website Manager"
+                content={<MathsocWebManagerArticle />}
             />
         </section>
     )
