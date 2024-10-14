@@ -1,4 +1,5 @@
 import React from "react";
+import Hyperlink from "@/components/Hyperlink";
 
 const CodeybotArticle = () => {
     return (
@@ -11,10 +12,10 @@ const CodeybotArticle = () => {
                 If you want to learn more details on what the bot can do,
                 our
                 {" "}
-                <a href="https://github.com/uwcsc/codeybot/blob/main/docs/COMMAND-WIKI.md" 
-                className="relative inline-block text-blue-500 after:block after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">
-                    live command documentation
-                </a>
+                <Hyperlink
+                    link="https://github.com/uwcsc/codeybot/blob/main/docs/COMMAND-WIKI.md"
+                    text="live command documentation"
+                />
                 {" "} 
                 is where you can go to.
                 <br />

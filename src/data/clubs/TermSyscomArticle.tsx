@@ -1,4 +1,5 @@
 import React from "react";
+import Hyperlink from "@/components/Hyperlink";
 
 const TermSyscomArticle = () => {
     return (
@@ -21,10 +22,10 @@ const TermSyscomArticle = () => {
 
                 Within the team, we use 
                 {" "}
-                <a href="https://plane.so/" 
-                className="relative inline-block text-blue-500 after:block after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full">
-                    Plane
-                </a>
+                <Hyperlink
+                    link="https://plane.so/"
+                    text="Plane"
+                />
                 {" "} 
                 as our project management platform, which we also self-host.
                 Plane contains a lot of tickets from different areas, such as infrastructure, softwares, hardwares, mirrors, etc.
