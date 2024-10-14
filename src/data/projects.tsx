@@ -13,6 +13,20 @@ interface Project {
   
 export const projects: Project[] = [
     {
+        name: "Pixiv API",
+        links: [
+            { name: "GitHub", path: "https://github.com/KuroganeToyama/pixiv-api" },
+        ],
+        src: "/projects/pixiv.jpg",
+        skills: ["Python", "Flask"],
+        desc: "An unoffical API for retrieving images from Pixiv. The API is based on the work of Pixiv Crawler, \
+        which you can explore here: https://github.com/CWHer/PixivCrawler. I created this API just because I wanted \
+        more quality images for my Discord bot to fetch. Did learn some interesting stuff about creating, testing and hosting APIs though. \
+        また、Pixivの開発者の皆さん、APIへのアクセスを許可してください。本当に感謝します。\
+        あなた方はモバイルアプリを持っているので、APIを持っていることは知っています。",
+    },
+
+    {
         name: "Portfolio",
         links: [
             { name: "GitHub", path: "https://github.com/KuroganeToyama/portfolio" },
