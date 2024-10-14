@@ -3,6 +3,7 @@ import Details from "@/components/Details";
 import CodeybotArticle from "@/data/clubs/CodeybotArticle";
 import TermSyscomArticle from "@/data/clubs/TermSyscomArticle";
 import MathsocWebManagerArticle from "@/data/clubs/MathsocWebManagerArticle";
+import MathsocWebDevArticle from "@/data/clubs/MathsocWebDevArticle";
 
 const Clubs = () => {
     return (
@@ -32,6 +33,11 @@ const Clubs = () => {
             <Details
                 title="MathSoc Website Manager"
                 content={<MathsocWebManagerArticle />}
+            />
+
+            <Details
+                title="MathSoc Website Developer"
+                content={<MathsocWebDevArticle />}
             />
         </section>
     )
