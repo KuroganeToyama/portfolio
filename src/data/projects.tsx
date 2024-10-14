@@ -84,10 +84,10 @@ export const projects: Project[] = [
         src: "/projects/watopoly.png",
         skills: ["C++"],
         desc: "My final project for CS246, Object-Oriented Software Development. \
-        It's also the UWaterloo verison of Monopoly. \
+        It's also the UWaterloo version of Monopoly. \
         More importantly, this is where we were tested on our applications of design patterns. \
         By university policy, I have to make this repo private. \
-        So email me if you do wanna see what me and my teammates did. \
+        So email me if you do wanna see what my teammates and I did. \
         However, if you're a UW student who has yet to complete CS246, then don't.",
     },
 
