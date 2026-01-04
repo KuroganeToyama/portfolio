@@ -13,6 +13,40 @@ interface Project {
   
 export const projects: Project[] = [
     {
+        name: "PDF to MCQ",
+        links: [
+            { name: "GitHub", path: "https://github.com/KuroganeToyama/pdf_to_mcq" },
+        ],
+        src: "/projects/pdf-to-mcq.png",
+        skills: ["Python", "FastAPI", "Supabase", "Docker"],
+        desc: "A web app to manage your PDFs and generate MCQs to test your knowledge on said PDFs. \
+        It's a decent tool if you need practice materials for your exams. \
+        I implemented enough pre-processing so that the LLM would generate quality MCQs.",
+    },
+
+    {
+        name: "Course Website Manager",
+        links: [
+            { name: "GitHub", path: "https://github.com/KuroganeToyama/course_website_manager" },
+        ],
+        src: "/projects/course-website-manager.png",
+        skills: ["Python", "Flask", "SQLite", "Docker"],
+        desc: "A simple web app to manage your course website URLs. Or any website really.",
+    },
+
+    {
+        name: "iClicker Automation",
+        links: [
+            { name: "GitHub", path: "https://github.com/KuroganeToyama/iclicker" },
+        ],
+        src: "/projects/iclicker.png",
+        skills: ["Python", "Selenium"],
+        desc: "An automation tool to collect student particpation data from iClicker. \
+        Because iClicker never provides a decent way to collect those data. \
+        This tool cuts the time from 1 hour down to 5 minutes. Huge.",
+    },
+
+    {
         name: "Otaku Music Bot",
         links: [
             { name: "GitHub", path: "https://github.com/KuroganeToyama/otaku-music" },
