@@ -9,8 +9,7 @@ const Details = ({ title, content }: DetailsProps) => {
     return (
         <details className="group mt-16 mb-8 border-transparent">
             <summary className="p-4 cursor-pointer text-2xl md:text-3xl lg:text-[40px] font-bold text-green-500 w-full transition-all duration-300 
-            group-hover:border group-hover:rounded-lg group-hover:shadow-xl group-hover:bg-green-100
-            group-open:border group-open:rounded-lg group-open:shadow-xl group-open:bg-green-100">
+            border rounded-lg bg-green-100 group-hover:shadow-xl group-open:shadow-xl">
                 {title}
             </summary>
 
