@@ -34,9 +34,9 @@ const Footer = () => {
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-white-500 text-left">
-            © 2024 by Di Nguyen
+            © {new Date().getFullYear()} by Di Nguyen
             <br />
-            Last Updated: October 2024
+            Last Updated: {new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
           </span>
         </div>
       </div>
