@@ -8,68 +8,86 @@ const About = () => {
     <section className="w-[85%] mx-auto grid md:grid-cols-[2fr,1fr] gap-8 text-slate-50 pt-8 pb-16">
       <h1 className="text-4xl md:text-5xl lg:text-[80px] font-bold text-green-500">So... who am I?</h1>
       <p className="pr-8 text-lg leading-8 font-normal text-gray-800">
-        To the person viewing this page, hello there!
+        To the person viewing this page, hello there.
         <br />
         <br />
 
-        I&apos;m Di (pronounced as the letter D), a Computer Science student at{" "}
-        <a href="https://uwaterloo.ca" className="hover:text-yellow-500">
-            University of Waterloo
-        </a>
-        {"."} I'd say that I've been doing pretty well with school so far. 
-        I enjoy the course materials. But I don't exactly enjoy exams.
-        I think a lot of people would agree with me on this.
-        <br />
-        <br />
-
-        I&apos;m currently part-timing as Instruction Support Assistant (ISA) at the{" "}
-        <a href="https://cs.uwaterloo.ca/" className="hover:text-red-500">
-            School of Computer Science
-        </a>
-        {"."} In the past, I've also worked as an ISA in full-time capacity.
-        <br />
-        <br />
-
-        I enjoy programming and problem-solving, like many others.
-        I solve daily LeetCode problems and occasionally try solving some hard problems.
-        But I also enjoy experimenting with new tools and technology! 
-        Not to say that I didn't screw anything up, but I do very much enjoy tinkering with new toys. 
-        <br />
-        <br />
-
-        I'm also spending my time as a developer in the{" "}
-        <a href="https://csclub.uwaterloo.ca/" className="hover:text-blue-500">
-            Computer Science Club
-        </a>
-        {"."} Most of the time, I take a look at our project board, pick a ticket and work on it. 
-        Sometimes I fix a bug (or multiple ones), sometimes I develop new features (and fix even more bugs).
-        A couple of months ago, I got promoted to lead developer for the Discord Bot team.
-        So I'm also spending my time as a product manager (more or less).
-        Quite a lot of work, but it's also fun work!
-        <br />
-        <br />
-
-        I'm currently employed for my upcoming co-op work term in Winter 2025! 
-        It's crazy, I know, considering that Fall is usally regarded as the worst time to look for a job these days.
-        I'm employed as a <strong>Technical Solutions Developer</strong> at
-        {" "}
+        I&apos;m Di (pronounced as the letter D), a Computer Science undergraduate student at the{" "}
         <Hyperlink
-          link="https://www.linkedin.com/company/watspeed/about/"
-          text="WatSPEED"
+            link="https://uwaterloo.ca"
+            text="University of Waterloo"
         />
-        {""},
-        and boy I'm certainly very excited about this.
-        So, we'll see what I will learn and what I will contribute in the next 4 months.
+        {"."} I'd say that I've been doing pretty well with school so far. 
+        I enjoy the course materials. The exams are always painful.
         <br />
         <br />
 
-        Also, feel free to check out other pages on my website!
+        A bit about my experience.
+        <br />
+        <br />
+
+        I used to work as an <b>Instruction Support Assistant (ISA)</b> at the{" "}
+        <Hyperlink
+            link="https://cs.uwaterloo.ca/"
+            text="School of Computer Science"
+        />
+        {"."} ISA is a fancy term for TA, in the sense that in addition to what a TA would normally
+        do (i.e. marking assignments, marking exams, helping students), I also maintained the entire
+        technical infrastructure that ran the CS courses. I also developed a couple of tools to boost 
+        productivity in that regard.
+        <br />
+        <br />
+
+        I also used to work as a <b>Technical Solutions Developer</b> at{" "}
+        <Hyperlink
+            link="https://watspeed.uwaterloo.ca/index.html"
+            text="WatSPEED"
+        />
+        {"."} Internal departments in the company always have some technical needs, like automation, 
+        data analysis, retrieving financial data, building data reports and dashboards, etc. The variety 
+        of tasks I recevied was rather huge. Regardless, whenever they have a technical need, they reach 
+        out to me, I analyze their requirements, develop solutions on my own, test them properly, and 
+        monitor how my solutions perform in production until I could call it done. Think of my job as 
+        Product Design but for internal departments. 
+        <br />
+        <br />
+
+        Recently, I worked as a <b>Full Stack Software Developer</b> at{" "}
+        <Hyperlink
+            link="https://www.genesys.com/genesys-cloud"
+            text="Genesys Cloud"
+        />
+        {"."} The company provides cloud solutions for customer experience orchestration, and my team 
+        was essentially responsible for the services and infrastructure that allow the company to provide 
+        what it does. I worked a lot with AWS and maintained a lot of APIs for both public and internal usage.
+        <br />
+        <br />
+
+        I've also been spending my time as a developer in the{" "}
+        <Hyperlink
+            link="https://csclub.uwaterloo.ca/"
+            text="Computer Science Club"
+        />
+        {"."} Our club runs and provides a lot of services, including but not limited to our own Linux machines, 
+        our own cloud storage, our own Google Drive, our own Google Photos, and our own Discord bot. And 
+        because of that, we also have to maintain our physical servers. So while I'm not a sysadmin, I did gain 
+        a lot of experience in infrastructure.
+        <br />
+        <br />
+
+        Additionally, I enjoy programming and problem-solving, like many others.
+        I solve daily LeetCode problems and occasionally try solving some hard problems.
+        I also enjoy experimenting with AI frameworks to build cool apps and tools.
+        <br />
+        <br />
+
+        Anyways, feel free to check out other pages on my website.
         <br />
         <br />
 
         Oh, and here's my little resume if you're interested.
       </p>
-      <Button label="View My Resume!" path="/resume.pdf" />
+      <Button label="View My Resume" path="/resume.pdf" />
       <div className="row-start-1 md:col-start-2 md:row-end-3">
         <ImgageWithCaption
             src="/images/headshot.jpg"
