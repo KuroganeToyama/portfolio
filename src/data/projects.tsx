@@ -13,6 +13,18 @@ interface Project {
   
 export const projects: Project[] = [
     {
+        name: "Resume Critique",
+        links: [
+            { name: "GitHub", path: "https://github.com/KuroganeToyama/resume_critique" },
+        ],
+        src: "/projects/resume-critique.png",
+        skills: ["Python", "FastAPI", "Supabase", "Docker"],
+        desc: "A web app to manage your job postings, resumes and resume reviews. \
+        I think this is alreay common enough of a thing, but I still wanted to do it on my own. \
+        The challenge is to not do just another ChatGPT wrapper.",
+    },
+
+    {
         name: "PDF to MCQ",
         links: [
             { name: "GitHub", path: "https://github.com/KuroganeToyama/pdf_to_mcq" },
